@@ -1,0 +1,34 @@
+/* src/styles/main.css */
+body {
+    font-family: 'Tajawal', sans-serif;
+    background-color: #f8f3e9; /* Sand color */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #006c35; /* Saudi green */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #006c35;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
